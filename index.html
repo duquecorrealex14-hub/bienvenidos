@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesas de invitados - Graduación</title>
+    <!-- Bootstrap para estilo rápido -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body class="bg-light">
+
+    <!-- ===== SECCIÓN SUPERIOR (TÍTULO Y BÚSQUEDA) ===== -->
+    <header class="container py-5 text-center">
+        <h1 class="display-4 titulo-evento">Graduación de John Alex</h1>
+        <p class="lead">Busca tu nombre para saber en qué mesa estás</p>
+        
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 mt-4">
+                <input type="text" 
+                       id="searchInput" 
+                       class="form-control form-control-lg" 
+                       placeholder="Escribe tu nombre aquí...">
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== CONTENIDO PRINCIPAL (LAS MESAS) ===== -->
+    <main class="container py-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="mesasContainer">
+            
+            <!-- MESA 1 -->
+            <div class="col mesa-card" data-guests="andres gomez laura perez maria rodriguez juan torres paola castro julian arias sofia restrepo camilo lopez valentina cardona">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mesa-titulo">Mesa 1</h5>
+                        <ul class="list-unstyled invitados-list">
+                            <li>Andrés Gómez</li>
+                            <li>Laura Pérez</li>
+                            <li>María Rodríguez</li>
+                            <li>Juan Torres</li>
+                            <li>Paola Castro</li>
+                            <li>Julián Arias</li>
+                            <li>Sofía Restrepo</li>
+                            <li>Camilo López</li>
+                            <li>Valentina Cardona</li>
+                            <li>Santiago Ramírez</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MESA 2 -->
+            <div class="col mesa-card" data-guests="felipe gonzalez natalia cruz esteban rios veronica cardenas luis alvarez julieta marin diana salazar mateo mejia carolina muñoz pedro garcia">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mesa-titulo">Mesa 2</h5>
+                        <ul class="list-unstyled invitados-list">
+                            <li>Felipe González</li>
+                            <li>Natalia Cruz</li>
+                            <li>Esteban Ríos</li>
+                            <li>Verónica Cárdenas</li>
+                            <li>Luis Álvarez</li>
+                            <li>Julieta Marín</li>
+                            <li>Diana Salazar</li>
+                            <li>Mateo Mejía</li>
+                            <li>Carolina Muñoz</li>
+                            <li>Pedro García</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MESA 3 -->
+            <div class="col mesa-card" data-guests="camilo fernandez daniela trujillo sergio martinez patricia moreno fabian gil ximena suarez alejandra ospina oscar rojas juliana montoya ricardo muñoz">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mesa-titulo">Mesa 3</h5>
+                        <ul class="list-unstyled invitados-list">
+                            <li>Camilo Fernández</li>
+                            <li>Daniela Trujillo</li>
+                            <li>Sergio Martínez</li>
+                            <li>Patricia Moreno</li>
+                            <li>Fabián Gil</li>
+                            <li>Ximena Suárez</li>
+                            <li>Alejandra Ospina</li>
+                            <li>Óscar Rojas</li>
+                            <li>Juliana Montoya</li>
+                            <li>Ricardo Muñoz</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MESA 4 -->
+            <div class="col mesa-card" data-guests="sebastian castillo monica ramirez juanita molina santiago restrepo camila torres jorge salinas valentina lopez david muñoz isabela sanchez andrea gutierrez">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mesa-titulo">Mesa 4</h5>
+                        <ul class="list-unstyled invitados-list">
+                            <li>Sebastián Castillo</li>
+                            <li>Mónica Ramírez</li>
+                            <li>Juanita Molina</li>
+                            <li>Santiago Restrepo</li>
+                            <li>Camila Torres</li>
+                            <li>Jorge Salinas</li>
+                            <li>Valentina López</li>
+                            <li>David Muñoz</li>
+                            <li>Isabela Sánchez</li>
+                            <li>Andrea Gutiérrez</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MESA 5 -->
+            <div class="col mesa-card" data-guests="valentina cardona mateo mejia carolina muñoz alejandro ortiz maria camacho daniel villalba julian restrepo paola muñoz sofia cardenas fernando ruiz">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mesa-titulo">Mesa 5</h5>
+                        <ul class="list-unstyled invitados-list">
+                            <li>Valentina Cardona</li>
+                            <li>Mateo Mejía</li>
+                            <li>Carolina Muñoz</li>
+                            <li>Alejandro Ortiz</li>
+                            <li>María Camacho</li>
+                            <li>Daniel Villalba</li>
+                            <li>Julián Restrepo</li>
+                            <li>Paola Muñoz</li>
+                            <li>Sofía Cárdenas</li>
+                            <li>Fernando Ruiz</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MESA 6 -->
+            <div class="col mesa-card" data-guests="catalina gomez felipe cardona lucia torres andres castillo juliana marin marcos perez nicolas garcia adriana rojas laura fernandez victor salazar">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mesa-titulo">Mesa 6</h5>
+                        <ul class="list-unstyled invitados-list">
+                            <li>Catalina Gómez</li>
+                            <li>Felipe Cardona</li>
+                            <li>Lucía Torres</li>
+                            <li>Andrés Castillo</li>
+                            <li>Juliana Marín</li>
+                            <li>Marcos Pérez</li>
+                            <li>Nicolás García</li>
+                            <li>Adriana Rojas</li>
+                            <li>Laura Fernández</li>
+                            <li>Víctor Salazar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MESA 7 -->
+            <div class="col mesa-card" data-guests="javier rodriguez lina cardenas manuel salinas camila moreno cristian alvarez andrea castro nicolas muñoz daniela perez juan camacho sofia martinez">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mesa-titulo">Mesa 7</h5>
+                        <ul class="list-unstyled invitados-list">
+                            <li>Javier Rodríguez</li>
+                            <li>Lina Cárdenas</li>
+                            <li>Manuel Salinas</li>
+                            <li>Camila Moreno</li>
+                            <li>Cristian Álvarez</li>
+                            <li>Andrea Castro</li>
+                            <li>Nicolás Muñoz</li>
+                            <li>Daniela Pérez</li>
+                            <li>Juan Camacho</li>
+                            <li>Sofía Martínez</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MESA 8 -->
+            <div class="col mesa-card" data-guests="miguel torres valeria lopez ana maria gomez felipe salazar juliana rios jose fernandez sara muñoz diego cardona laura trujillo juan pablo ortiz">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mesa-titulo">Mesa 8</h5>
+                        <ul class="list-unstyled invitados-list">
+                            <li>Miguel Torres</li>
+                            <li>Valeria López</li>
+                            <li>Ana María Gómez</li>
+                            <li>Felipe Salazar</li>
+                            <li>Juliana Ríos</li>
+                            <li>José Fernández</li>
+                            <li>Sara Muñoz</li>
+                            <li>Diego Cardona</li>
+                            <li>Laura Trujillo</li>
+                            <li>Juan Pablo Ortiz</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MESA 9 -->
+            <div class="col mesa-card" data-guests="carlos ramirez daniela restrepo andres ospina julieta cardona sergio gomez natalia perez manuel torres isabela moreno cristina rios oscar garcia">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mesa-titulo">Mesa 9</h5>
+                        <ul class="list-unstyled invitados-list">
+                            <li>Carlos Ramírez</li>
+                            <li>Daniela Restrepo</li>
+                            <li>Andrés Ospina</li>
+                            <li>Julieta Cardona</li>
+                            <li>Sergio Gómez</li>
+                            <li>Natalia Pérez</li>
+                            <li>Manuel Torres</li>
+                            <li>Isabela Moreno</li>
+                            <li>Cristina Ríos</li>
+                            <li>Óscar García</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MESA 10 -->
+            <div class="col mesa-card" data-guests="fernando perez maria lopez julian cardenas alejandra muñoz santiago gomez karen trujillo jose cardona valentina rojas nicolas fernandez laura salinas">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mesa-titulo">Mesa 10</h5>
+                        <ul class="list-unstyled invitados-list">
+                            <li>Fernando Pérez</li>
+                            <li>María López</li>
+                            <li>Julián Cárdenas</li>
+                            <li>Alejandra Muñoz</li>
+                            <li>Santiago Gómez</li>
+                            <li>Karen Trujillo</li>
+                            <li>José Cardona</li>
+                            <li>Valentina Rojas</li>
+                            <li>Nicolás Fernández</li>
+                            <li>Laura Salinas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ===== SCRIPT PARA BÚSQUEDA ===== -->
+    <script>
+        document.getElementById("searchInput").addEventListener("input", function() {
+            let searchValue = this.value.toLowerCase();
+            let mesas = document.querySelectorAll(".mesa-card");
+
+            mesas.forEach(mesa => {
+                let guests = mesa.getAttribute("data-guests");
+                let guestListItems = mesa.querySelectorAll(".invitados-list li");
+
+                // limpiar resaltados previos
+                guestListItems.forEach(li => {
+                    li.innerHTML = li.textContent;
+                });
+
+                if (searchValue && guests.includes(searchValue)) {
+                    mesa.style.display = "block";
+
+                    guestListItems.forEach(li => {
+                        let text = li.textContent.toLowerCase();
+                        if (text.includes(searchValue)) {
+                            li.innerHTML = li.textContent.replace(
+                                new RegExp(searchValue, "gi"),
+                                match => `<span class="highlight">${match}</span>`
+                            );
+                        }
+                    });
+                } else if (searchValue === "") {
+                    mesa.style.display = "block";
+                } else {
+                    mesa.style.display = "none";
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
